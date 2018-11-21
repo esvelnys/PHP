@@ -1,7 +1,15 @@
-header
-
-{
+header {
     border: 1px solid black;
     outline-style: solid;
     outline-color: black;
+}
+
+div.portfolio {
+    display: inline-block;
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: yellowgreen;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
 }

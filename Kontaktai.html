@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontaktai</title>
-    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="testas.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
+
 <header>
     <nav class="top">
         <a href="/">Pradzia</a>
@@ -19,26 +22,17 @@
             <h1>Kontaktai</h1>
         </header>
 
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Kaunas%20University%20of%20Technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black gmbh</a></div><style>.mapouter{text-align:right;height:200px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:600px;}</style></div>
 
         <form action="saugoti.php" method="post" target="_blank">
             <label for="vardas">Tavo vardas</label>
             <input type="text" name="firstName" id="vardas" />
             <hr>
-            <select name="car" id="auto">
-                <option>Pasirinkite Autoriteta</option>
-                <option value="tesla">Tresla</option>
-                <option value="leaf">NISSAN LEAF</option>
-            </select>
+            <label for="email">El.paštas</label>
+            <input type="text" name="email" id="email" />
             <hr>
-            <label for="ar">Ar kazkas?</label>
-            <input type="checkbox" value="taip" id="ar" required />
-            <hr>
-            <label for="pa">Pasirinkimas A</label>
-            <input type="radio" name="pasirinkimas" value="pasirinkimas A" id="pa">
-            <label for="pb">Pasirinkimas B</label>
-            <input type="radio" name="pasirinkimas" value="pasirinkimas B" id="pb">
-            <hr>
-            <textarea name="klausimas" placeholder="tavo tekstas">Labas pasauli?</textarea>
+            <label for="tekstas">Žinutė</label>
+            <textarea name="tekstas" placeholder="tavo tekstas" id="tekstas">Užklausimas?</textarea>
             <hr>
             <button type="submit">Klausti</button>
         </form>
@@ -56,6 +50,17 @@
     </nav>
 </footer>
 </body>
+
+<!--<p id="demo"></p>-->
+
+<!--<div id ="x">5</div>-->
+<!--<span id="y">6</span>-->
+
+<!--var x = document.getElementById("demo").innerHTML;-->
+
+?
+
+
 </html>
 © 2018 GitHub, Inc.
 Terms
